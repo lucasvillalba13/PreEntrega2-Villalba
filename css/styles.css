@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  background-image: url("../assets/contenedor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  float: right;
+}
+.navbar ul {
+  float: right;
+}
+.navbara:hover {
+  background-color: beige;
+}
+
+.logo {
+  width: 105px;
+  float: right;
+  justify-content: end;
+}
+.logo img {
+  width: 100%;
+}
+
+/* footer */
+.foot {
+  text-align: center;
+  text-decoration: none;
+}
+.foot a {
+  color: black;
+}
+
+/* galeria */
+.carousel-item img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 100px;
+}
+
+/* nosotros */
+.nos p {
+  font-size: 20px;
+  text-justify: auto;
+}
+.nos img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

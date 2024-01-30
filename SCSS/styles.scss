@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    background-image: url('../assets/contenedor.jpg') ; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    float: right;
+
+    ul{
+        float: right;
+    }
+
+    &a:hover{
+        background-color: beige;
+    }
+}
+
+.logo{
+    width: 105px;
+    float: right;
+    justify-content: end;
+
+    img{
+        width: 100%;
+    }
+}
+
+/* footer */
+
+.foot {
+    text-align: center;
+    text-decoration: none;
+
+    a{
+        color: black;
+    }
+}
+
+/* galeria */
+
+.carousel-item{
+
+    img{
+        max-width: 100%;
+        max-height: 400px;
+        margin: 100px ; 
+    }
+}
+
+/* nosotros */
+
+.nos-container{
+    p{
+        font-size: 20px;
+        text-justify:auto
+    }
+
+    img{
+        width: 300px; 
+        height: 300px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
