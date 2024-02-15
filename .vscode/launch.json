@@ -3,14 +3,16 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
+    "homepage":"https://lucasvillalba13.github.io/PreEntrega2-Villalba/",
     "configurations": [
 
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Launch Edge against localhost",
+            "name": "Euphoria",
             "url": "file:///C:/Users/Usuario/OneDrive/Escritorio/preentregable/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
+    
 }
